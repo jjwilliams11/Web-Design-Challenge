@@ -1,3 +1,7 @@
+
+.navbar{
+    color: #073958
+}
 .darkblue{
     color: #073958;
 }
@@ -15,4 +19,13 @@
 
 .bluegray{
     color: #7990A2;
+}
+
+.h1{
+    color: #073958;
+}
+.box{
+    height: 400px;
+    padding: 20px;
+    background: #fff;
 }

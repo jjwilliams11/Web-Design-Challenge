@@ -12,37 +12,79 @@
    <title>Latitude Weather</title>
 
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Latitude Weather</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body style="background-color: #7990A2;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+            <a class="navbar-brand" href="index.html">Latitude Weather</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-md-auto ">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="container mt-5">
+                <div class="row justify-content-around">
+                    <div class="col-md-6" style="background-color: #fff;">
+                        <div class="row lightblue">
+                            <h1>Summary Latitude Weather</h1>
+                            <hr>
+                        </div>
+                        <div class="container">
+                            <div class=float-md-start><img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude"></div>
+                            <p>The initial part of the project created a Python script to analyze and visualize the weather of 500+ 
+                            random cities across the world of varying distance from the equator for the report date. The project 
+                            used utilizing a Python library Citipy and the OpenWeatherMap API to create a representative model of 
+                            weather across world cities.</p> 
     
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-     
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="background-color: #fff;">
+                        <div class="row lightblue">
+                            <div class="col-md-12">
+                                <h1>Visualizations</h1>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col-md-6">
+                                <img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude">
+                            </div>
+                            <div class=" col-md-6">
+                                <img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude">
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col-md-6">
+                                <img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude">
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
       
 
 
@@ -50,12 +92,12 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    -->
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
+   
 </body>
 </html>
