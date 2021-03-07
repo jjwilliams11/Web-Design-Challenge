@@ -13,13 +13,14 @@
 
 </head>
 <body style="background-color: #7990A2;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+    <div class="row px-2">
+        <nav class="navbar navbar-expand-lg border-bottom shadow-sm" style="background-color: #fff;">
             <a class="navbar-brand" href="index.html">Latitude Weather</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mr-md-auto ">
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,14 +50,13 @@
                             <hr>
                         </div>
                         <div class="container">
-                            <div class=float-md-start><img src="resources/Lat_Temp.png" width="200" height="150" alt="Temperatues by Latitude"></div>
+                            <img src="resources/Lat_Temp.png"  width="60%" alt="Temperatues by Latitude" style="float:left">
                             <p>The initial part of the project created a Python script to analyze and visualize the weather of 500+ 
                             random cities across the world of varying distance from the equator for the report date. The project 
                             used utilizing a Python library Citipy and the OpenWeatherMap API to create a representative model of 
                             weather across world cities.</p>
                             <p>After establishing the dataset, Matplotlib was utilized to perform 4 different scatter plots.
                             Specifically looking at max temperature, cloudiness, humidity, and wind speed for each city latitude.</p> 
-    
                         </div>
                     </div>
                     <div class="col-md-4" style="background-color: #fff;">
@@ -67,24 +67,24 @@
                             </div>
                         </div>
                         <div class="row p-2">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <div class="limit">
                                     <img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude">
                                 </div>  
                             </div>           
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <div class="limit">
                                     <img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude">
                                 </div>
                             </div>
                         </div>
                         <div class="row p-2">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <div class="limit">
                                     <img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude">
                                 </div>  
                             </div>           
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <div class="limit">
                                     <img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude">
                                 </div>
@@ -93,6 +93,9 @@
                     </div>
                 </div>
         </div>
+
+    </div>
+        
         
       
 
