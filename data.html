@@ -12,7 +12,7 @@
    <title>Latitude Weather Data</title>
 
 </head>
-<body style="background-color: #7990A2;">
+<body>
     <div class="row px-2">
         <nav class="navbar navbar-expand-lg border-bottom shadow-sm" style="background-color: #fff;">
             <a class="navbar-brand" href="index.html">Latitude Weather</a>
@@ -21,17 +21,20 @@
             </button>
         
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-md-auto ">
+            <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="max_temperatures.html">Max Temperatures</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="comparison.html">Comparison</a>
@@ -47,8 +50,8 @@
                 Data
             </h1>
             <hr>
-            <p></p>
-            <div class="table-responsive mt-5">
+            <p>The below table includes all the data used for the plotting the visualizations. </p>
+            <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                         <tr style="text-align: right;">

@@ -9,10 +9,10 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
 
-    <title>Latitude Weather</title>
+    <title>Comparison Charts</title>
 
 </head>
-<body style="background-color: #7990A2;">
+<body>
   <div class="row px-2">
       <nav class="navbar navbar-expand-lg border-bottom shadow-sm" style="background-color: #fff;">
           <a class="navbar-brand" href="index.html">Latitude Weather</a>
@@ -21,18 +21,21 @@
           </button>
       
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-md-auto ">
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-              </li>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="max_temperatures.html">Max Temperatures</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                </div>
+            </li>
               <li class="nav-item">
                   <a class="nav-link" href="comparison.html">Comparison</a>
               </li>
@@ -74,7 +77,7 @@
                           </div>           
                           <div class="col-6">
                               <div class="limit">
-                                  <img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude">
+                                  <img src="resources/Lat_Humidity.png" width="100%" alt="Temperatues by Latitude">
                               </div>
                           </div>
                       </div>

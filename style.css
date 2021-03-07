@@ -17,18 +17,13 @@
     color: #FEC10D;
 }
 
-.bluegray{
-    color: #7990A2;
-}
-
-.h1{
-    color: #073958;
-}
-.box{
-    height: 400px;
-    padding: 20px;
-    background: #fff;
-}
+body {
+    background: #7990A2;
+  }
+  
+h1 {
+    color: #008BD1;
+  }
 
 .navbar-brand{
     color: #008BD1;
