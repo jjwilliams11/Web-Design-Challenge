@@ -14,35 +14,37 @@
 </head>
 <body>
     <div class="row px-2">
-        <nav class="navbar navbar-expand-lg border-bottom shadow-sm" style="background-color: #fff;">
-            <a class="navbar-brand" href="index.html">Latitude Weather</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="max_temperatures.html">Max Temperatures</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="comparison.html">Comparison</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg border-bottom shadow-sm navbar-light navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Latitude Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon custom-toggler"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="max_temperatures.html">Max Temperatures</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container mt-5">
@@ -53,7 +55,7 @@
                             <hr>
                         </div>
                         <div class="container">
-                            <img src="resources/Lat_Humidity.png"  width="100%" alt="Temperatues by Latitude" style="float:left">
+                            <img src="resources/assets/Lat_Humidity.png"  width="100%" alt="Temperatues by Latitude" style="float:left">
                             <p>The initial part of the project created a Python script to analyze and visualize the weather of 500+ 
                             random cities across the world of varying distance from the equator for the report date. The project 
                             used utilizing a Python library Citipy and the OpenWeatherMap API to create a representative model of 
@@ -72,24 +74,24 @@
                         <div class="row p-2" style="background-color: #fff;">
                             <div class="col-6">
                                 <div class="limit">
-                                   <a href="max_temperatures.html"><img src="resources/Lat_Temp.png" width="100%" alt="Temperatues by Latitude"></a>
+                                   <a href="max_temperatures.html"><img src="resources/assets/Lat_Temp.png" width="100%" alt="Temperatues by Latitude"></a>
                                 </div>  
                             </div>           
                             <div class="col-6">
                                 <div class="limit">
-                                    <a href="humidity.html"><img src="resources/Lat_Humidity.png" width="100%" alt="Humidity by Latitude"></a>
+                                    <a href="humidity.html"><img src="resources/assets/Lat_Humidity.png" width="100%" alt="Humidity by Latitude"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="row p-2" style="background-color: #fff;">
                             <div class="col-6">
                                 <div class="limit">
-                                    <a href="cloudiness.html"><img src="resources/Lat_Cloud.png" width="100%" alt="Cloudiness by Latitude"></a>
+                                    <a href="cloudiness.html"><img src="resources/assets/Lat_Cloud.png" width="100%" alt="Cloudiness by Latitude"></a>
                                 </div>  
                             </div>           
                             <div class="col-6">
                                 <div class="limit">
-                                   <a href="wind_speed.html"><img src="resources/Lat_Wind.png" width="100%" alt="Wind Speed by Latitude"></a>
+                                   <a href="wind_speed.html"><img src="resources/assets/Lat_Wind.png" width="100%" alt="Wind Speed by Latitude"></a>
                                 </div>
                             </div>
                         </div>

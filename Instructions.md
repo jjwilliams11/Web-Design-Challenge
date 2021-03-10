@@ -40,7 +40,7 @@ The website must consist of 7 pages total, including:
 * A ["Comparisons" page](#comparisons-page) that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.---Done---
   * Uses a Bootstrap grid for the visualizations.---Done---
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.---Done---
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.---Done---
     * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
